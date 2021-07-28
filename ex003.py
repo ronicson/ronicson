@@ -1,0 +1,5 @@
+print('CALCULADORA DE ADIÇÃO +')
+n1 = input('Digite um valor:')
+n2 = input('Digite outro valor:')
+r = (int(n1) + int(n2))
+print('A soma entre', n1, 'e', n2, 'é igual á', r)
