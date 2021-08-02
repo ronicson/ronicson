@@ -1,0 +1,5 @@
+print('Sucessor e Anterio')
+n = int(input('Digite um numero(s):'))
+s = int(+1)
+a = int(-1)
+print('O sucessor de', n, 'é', n + s, ',' 'e anterior de', n, 'é', n + a)
