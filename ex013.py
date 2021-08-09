@@ -1,3 +1,3 @@
-salario = float(input('Digite seu salario:R$'))
-a = salario + (15/100)
+s = float(input('Digite seu salario:R$'))
+a = s + (s * 15 / 100)
 print('Seu novo salario é R${:.0f}'.format(a))
