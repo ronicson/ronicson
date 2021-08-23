@@ -1,4 +1,10 @@
+'''ca = float(input('Digite o comprimento do cateto adjacente:'))
+co = float(input('Digite o comprimento do cateto oposto:'))
+hipo = (ca**2 + co**2) ** (1/2)
+print('O valor da hipotenusa é {:.2f}'.format(hipo))'''
+import math
 ca = float(input('Digite o comprimento do cateto adjacente:'))
 co = float(input('Digite o comprimento do cateto oposto:'))
-ipot = (ca**(1/2)) + (co**(1/2))
-print('O valor da hipotenusa é {}'.format(ipot**2))
+hipo = math.hypot(co, ca)
+print('O valor da hipotenusa é {:.2f}'.format(hipo))
+
