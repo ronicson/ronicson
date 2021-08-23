@@ -1,7 +1,8 @@
-hipo = float(input('Digite o valor  da hipotenusa:'))
-ca = float(input('Digite o valor do cateto adjacente:'))
-co = float(input('Digite o valor so cateto oposto:'))
-se = co/hipo
-cos = ca/hipo
-tan = co/ca
-print('o valor de seno{} o cosseno{} e o da tangente{}'.format(se, cos, tan))
+from math import radians, sin, cos, tan
+an = float(input('Digite o angulo que voce deseja:'))
+seno = sin(radians(an))
+print('O angulo {} tem o SENO de {:.2f}'.format(an, seno))
+cosseno = cos(radians(an))
+print('O angulo {} tem COSSENO {:.2f}'.format(an, cosseno))
+tangente = tan(radians(an))
+print('O angulo de {} tem a TANGENTE {:.2f}'.format(an, tangente))
